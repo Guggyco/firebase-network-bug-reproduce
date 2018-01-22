@@ -1,0 +1,13 @@
+Pods/
+.idea
+Guggy.xcodeproj/xcuserdata/*
+Guggy.xcworkspace/xcuserdata/
+guggymessenger.xcworkspace/xcuserdata/
+guggymessenger.xcodeproj/xcuserdata/*
+guggymessenger.xcodeproj/project.xcworkspace/*
+*.framework
+guggymessenger.xcworkspace/
+*.log
+Podfile.lock
+*.zip
+*.ipa

@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10D244A85EA9FB6060E36153 /* Pods_firebase_network_bug_reproduce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BB24EF9084A56044252488 /* Pods_firebase_network_bug_reproduce.framework */; };
+		1455BA482015D33600DC93D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455BA472015D33600DC93D1 /* AppDelegate.swift */; };
+		1455BA4A2015D33600DC93D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455BA492015D33600DC93D1 /* ViewController.swift */; };
+		1455BA4D2015D33600DC93D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1455BA4B2015D33600DC93D1 /* Main.storyboard */; };
+		1455BA4F2015D33600DC93D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1455BA4E2015D33600DC93D1 /* Assets.xcassets */; };
+		1455BA522015D33600DC93D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1455BA502015D33600DC93D1 /* LaunchScreen.storyboard */; };
+		1455BA5C2015D8E200DC93D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1455BA5B2015D8E200DC93D1 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1455BA442015D33600DC93D1 /* firebase-network-bug-reproduce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firebase-network-bug-reproduce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1455BA472015D33600DC93D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1455BA492015D33600DC93D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1455BA4C2015D33600DC93D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1455BA4E2015D33600DC93D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1455BA512015D33600DC93D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1455BA532015D33600DC93D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1455BA5B2015D8E200DC93D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24029E887FEB8A7C8D35932A /* Pods-firebase-network-bug-reproduce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-network-bug-reproduce.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebase-network-bug-reproduce/Pods-firebase-network-bug-reproduce.release.xcconfig"; sourceTree = "<group>"; };
+		2B4DABB923E4C9D81E9C0721 /* Pods-firebase-network-bug-reproduce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-network-bug-reproduce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebase-network-bug-reproduce/Pods-firebase-network-bug-reproduce.debug.xcconfig"; sourceTree = "<group>"; };
+		B6BB24EF9084A56044252488 /* Pods_firebase_network_bug_reproduce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_network_bug_reproduce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1455BA412015D33600DC93D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D244A85EA9FB6060E36153 /* Pods_firebase_network_bug_reproduce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1455BA3B2015D33600DC93D1 = {
+			isa = PBXGroup;
+			children = (
+				1455BA462015D33600DC93D1 /* firebase-network-bug-reproduce */,
+				1455BA452015D33600DC93D1 /* Products */,
+				4C5DC4FE4FCC2C00911E5163 /* Pods */,
+				BD78720DAAE756E35D82A53C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1455BA452015D33600DC93D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1455BA442015D33600DC93D1 /* firebase-network-bug-reproduce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1455BA462015D33600DC93D1 /* firebase-network-bug-reproduce */ = {
+			isa = PBXGroup;
+			children = (
+				1455BA5B2015D8E200DC93D1 /* GoogleService-Info.plist */,
+				1455BA472015D33600DC93D1 /* AppDelegate.swift */,
+				1455BA492015D33600DC93D1 /* ViewController.swift */,
+				1455BA4B2015D33600DC93D1 /* Main.storyboard */,
+				1455BA4E2015D33600DC93D1 /* Assets.xcassets */,
+				1455BA502015D33600DC93D1 /* LaunchScreen.storyboard */,
+				1455BA532015D33600DC93D1 /* Info.plist */,
+			);
+			path = "firebase-network-bug-reproduce";
+			sourceTree = "<group>";
+		};
+		4C5DC4FE4FCC2C00911E5163 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B4DABB923E4C9D81E9C0721 /* Pods-firebase-network-bug-reproduce.debug.xcconfig */,
+				24029E887FEB8A7C8D35932A /* Pods-firebase-network-bug-reproduce.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD78720DAAE756E35D82A53C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6BB24EF9084A56044252488 /* Pods_firebase_network_bug_reproduce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1455BA432015D33600DC93D1 /* firebase-network-bug-reproduce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1455BA562015D33600DC93D1 /* Build configuration list for PBXNativeTarget "firebase-network-bug-reproduce" */;
+			buildPhases = (
+				56C861921204491219857891 /* [CP] Check Pods Manifest.lock */,
+				1455BA402015D33600DC93D1 /* Sources */,
+				1455BA412015D33600DC93D1 /* Frameworks */,
+				1455BA422015D33600DC93D1 /* Resources */,
+				C52EB6B7380131AAFFBE3FE9 /* [CP] Embed Pods Frameworks */,
+				19043EF1E1627CD08159D6B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "firebase-network-bug-reproduce";
+			productName = "firebase-network-bug-reproduce";
+			productReference = 1455BA442015D33600DC93D1 /* firebase-network-bug-reproduce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1455BA3C2015D33600DC93D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Guggy;
+				TargetAttributes = {
+					1455BA432015D33600DC93D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1455BA3F2015D33600DC93D1 /* Build configuration list for PBXProject "firebase-network-bug-reproduce" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1455BA3B2015D33600DC93D1;
+			productRefGroup = 1455BA452015D33600DC93D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1455BA432015D33600DC93D1 /* firebase-network-bug-reproduce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1455BA422015D33600DC93D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1455BA5C2015D8E200DC93D1 /* GoogleService-Info.plist in Resources */,
+				1455BA522015D33600DC93D1 /* LaunchScreen.storyboard in Resources */,
+				1455BA4F2015D33600DC93D1 /* Assets.xcassets in Resources */,
+				1455BA4D2015D33600DC93D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19043EF1E1627CD08159D6B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebase-network-bug-reproduce/Pods-firebase-network-bug-reproduce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56C861921204491219857891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebase-network-bug-reproduce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C52EB6B7380131AAFFBE3FE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-firebase-network-bug-reproduce/Pods-firebase-network-bug-reproduce-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebase-network-bug-reproduce/Pods-firebase-network-bug-reproduce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1455BA402015D33600DC93D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1455BA4A2015D33600DC93D1 /* ViewController.swift in Sources */,
+				1455BA482015D33600DC93D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1455BA4B2015D33600DC93D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1455BA4C2015D33600DC93D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1455BA502015D33600DC93D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1455BA512015D33600DC93D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1455BA542015D33600DC93D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1455BA552015D33600DC93D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1455BA572015D33600DC93D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B4DABB923E4C9D81E9C0721 /* Pods-firebase-network-bug-reproduce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6N44Z6SDS;
+				INFOPLIST_FILE = "firebase-network-bug-reproduce/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guggy.firebase-network-bug-reproduce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1455BA582015D33600DC93D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24029E887FEB8A7C8D35932A /* Pods-firebase-network-bug-reproduce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6N44Z6SDS;
+				INFOPLIST_FILE = "firebase-network-bug-reproduce/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guggy.firebase-network-bug-reproduce";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1455BA3F2015D33600DC93D1 /* Build configuration list for PBXProject "firebase-network-bug-reproduce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1455BA542015D33600DC93D1 /* Debug */,
+				1455BA552015D33600DC93D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1455BA562015D33600DC93D1 /* Build configuration list for PBXNativeTarget "firebase-network-bug-reproduce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1455BA572015D33600DC93D1 /* Debug */,
+				1455BA582015D33600DC93D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1455BA3C2015D33600DC93D1 /* Project object */;
+}
