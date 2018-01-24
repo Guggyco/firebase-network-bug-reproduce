@@ -12,6 +12,8 @@ import FirebaseFirestore
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var textbox: UITextView!
+    
     var db:Firestore {
         
         get {
@@ -50,16 +52,24 @@ class ViewController: UIViewController {
         
         batch.setData(data, forDocument: messagesRef)
 
-        batch.commit { err in
+        let d = Date()
+        
+        textbox.text.append(contentsOf: "Saving message id \(messagesRef.documentID) \n")
+        
+        batch.commit { [unowned self] err in
             
+            self.textbox.text.append(contentsOf: "Complete after \( String(format: "%.2f", (Date().timeIntervalSince1970 - d.timeIntervalSince1970))) milliseconds \n")
+
             guard err == nil else {
                 
-                print(err.debugDescription)
+                self.textbox.text.append(contentsOf: "Error \(err.debugDescription) \n")
                
                 return
                 
             }
             
+            //self.textbox.text.append(contentsOf: "Great success \n")
+
             print("Done")
             
         }

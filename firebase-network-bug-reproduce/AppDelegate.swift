@@ -32,15 +32,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 return false
         }
         
+        
         FirebaseApp.configure(options: fileopts)
         
         let settings = FirestoreSettings()
         settings.isPersistenceEnabled = true
         
+    
+        
         // Enable offline data persistence
         let db = Firestore.firestore()
         
-        //        Firestore.enableLogging(true)
+        
+        
+        
+         Firestore.enableLogging(true)
         
         db.settings = settings
         
